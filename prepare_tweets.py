@@ -11,10 +11,10 @@ from google.cloud import vision
 from google.cloud.vision import types
 
 # You may need to use your own authorization for twitter API
-twitter_consumer_key = "dXrq8z9Ph6MZaoO4aIphPY7EA"
-twitter_consumer_secret = "QB06nE5KvYqc9gdRPDSJvsqtzCHFeaPFXL4EHp2Bzpm1C00J0U"
-twitter_access_key = "1039356566519074817-iFnyvMWjjJLEf1OEkAq9wCrehgtFBu"
-twitter_access_secret = "jyYdMngKjFrM8yeJs8HzkIjsPHntwTlQPTB2EpR67fJFk"
+twitter_consumer_key = "your_consumer_key"
+twitter_consumer_secret = "your_consumer_secret"
+twitter_access_key = "your_access_key"
+twitter_access_secret = "your_access_secret"
 
 
 def download_pics(path, username, nPics):
